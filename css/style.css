@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 50px;
+
+}
+
+.navBar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;    
+    padding: 20px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    width: 50%;
+    background-color: blueviolet;
+    text-align: right;
+}
+
