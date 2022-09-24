@@ -116,3 +116,26 @@
     padding: 5 10px;
     vertical-align: middle;
 }
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    max-width: 80%;
+    margin: auto;
+}
+.paragrah{
+    padding: 1px 5px;
+}
+.section-left{
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    max-width: 80%;
+    margin: auto;
+}
