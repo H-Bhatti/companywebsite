@@ -13,8 +13,8 @@
 }
 .logo img{
     width: 50%;
-    border: 3px solid white;
-    border-radius: 50px;
+    border: 1px solid white;
+    border-radius: 200px;
 
 }
 
@@ -24,11 +24,15 @@
     justify-content: center;
     position: sticky;
     top: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
+
+    /* background: rgba(0, 0, 0, 0.4) url("../Pictures/BgNavjd.jpg");
+    background-size: cover;
+    background-blend-mode: darken; */
 }
 
 .nav-list{
-    width: 50%;
+    width: 70%;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -41,16 +45,19 @@
 
 .nav-list li a{
     text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 .nav-list li a:hover{
     text-decoration: none;
-    color: grey;
+    color: rgb(75, 67, 67);
 }
 
 .rightNav{
-    width: 50%;
+    width: 30%;
     text-align: right;
     padding: 0 25px;
+
 }
 #search{
     padding: 5px;
@@ -59,7 +66,7 @@
     border-radius: 10px;
 }
 .background {
-    background: rgba(0, 0, 0, 0.5) url("../Pictures/BgNavjd.jpg");
+    background: rgba(0, 0, 0, 0.4) url("../Pictures/BgNavjd.jpg");
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -112,13 +119,19 @@
     color: whitesmoke;
     cursor: pointer;
 }
+.btn:hover{
+    border: 2px solid white;
+}
 .btn-sm{
     padding: 5 10px;
     vertical-align: middle;
 }
-
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+}
 .section{
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -138,4 +151,47 @@
     /* flex-direction: column; */
     max-width: 80%;
     margin: auto;
+}
+.thumbnail img{
+    width: 230px;
+    border: 2px solid rgb(82, 75, 75);
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.sectionTag{
+    padding: 10px 0px;
+}
+.contact{
+    background-color:#f9f6f3;
+    height: 80vh;
+
+}
+.text-center{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.form{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin-top: 9px;
+    padding: 2px 5px;
+
+}
+.form input:hover{
+    border: 2.5px solid grey;
+}
+.text-footer{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
 }
