@@ -24,6 +24,7 @@
     justify-content: center;
     position: sticky;
     top: 0;
+    
     /* cursor: pointer; */
 
     /* background: rgba(0, 0, 0, 0.4) url("../Pictures/BgNavjd.jpg");
@@ -131,11 +132,11 @@
     border: 2px solid grey;
 }
 .section{
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* flex-direction: column; */
+    flex-direction: column;
     max-width: 80%;
     margin: auto;
 }
@@ -172,7 +173,7 @@
     font-size: 40px;
 }
 .form{
-    max-width: 1000px;
+    max-width: 85%;
     margin: 20px auto;
 }
 .form-input{
@@ -194,4 +195,68 @@
     justify-content: center;
     font-size: 15px;
     color: white;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navBar{
+        flex-direction: column;
+        transition: all 0.9s ease-out;
+        height: 450px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paragrah{
+        padding: 0px;
+        text-align: left;
+    }
 }
